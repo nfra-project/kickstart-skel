@@ -1,8 +1,4 @@
-# EditorConfig is awesome: https://EditorConfig.org
-#
-# Make sure to use the correct IDE-Plugins
-#
-# - PHPStorm: https://plugins.jetbrains.com/plugin/7294-editorconfig
+# Template file from [kickstart-skel](.kicker/KICKSTART_README.md)
 
 # top-most EditorConfig file
 root = true
@@ -29,6 +25,6 @@ indent_size = 4
 # Indentation override for all JS under lib directory
 [*.js]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 
