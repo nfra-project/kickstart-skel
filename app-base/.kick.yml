@@ -1,0 +1,6 @@
+version: 1
+from: "nfra/kickstart-flavor-base"
+
+command:
+  build:
+

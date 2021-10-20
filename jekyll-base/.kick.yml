@@ -1,0 +1,10 @@
+version: 1
+from: "nfra/kickstart-flavor-jekyll"
+
+command:
+  build:
+  - "jekyll build -s /opt/docs -d /var/www/html"
+
+  dev:
+  - "D:jekyll build -s /opt/docs -d /var/www/html --watch --force_polling"
+

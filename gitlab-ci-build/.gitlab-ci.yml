@@ -1,0 +1,31 @@
+image: docker:stable
+stages:
+  - test
+  - build
+  - deploy
+
+services:
+  - docker:dind
+
+## Activate if git submodules are present
+# variables:
+#   GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - apk update && apk add bash curl
+
+latest:
+  stage: test
+  script:
+    - ./kickstart.sh :test
+  only:
+    - master
+
+stable:
+  stage: deploy
+  script:
+    - ./kickstart.sh ci-build
+    - echo "call curl deploy script here"
+  when: on_success
+  only:
+    - master

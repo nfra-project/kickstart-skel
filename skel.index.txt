@@ -1,0 +1,17 @@
+app-base
+    Basic application including .gitignore .dockerignore .gitattributes etc.
+
+gitlab-ci-build
+    Install dockerfile and giblab-ci basic configuration
+
+jekyll-base
+    Basic HTML Templates for static website development
+
+php-app-base
+    Basic phore/micro-app project
+
+node-expressjs
+    Basic expressjs hello world service with npm and nodemon
+
+kickstart-flavor-php:7.4
+    PHP 7.4: Basic container apache2-mod-php7.4

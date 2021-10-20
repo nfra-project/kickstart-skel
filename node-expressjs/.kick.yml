@@ -1,0 +1,20 @@
+version: 1
+from: "infracamp/kickstart-flavor-erebos:testing"
+
+config_file:
+  template: "_config.js.dist"
+  target: "_config.js"
+
+command:
+  build:
+    - npm install
+
+  test:
+    - echo "no tests"
+
+  dev:
+    - D:nodemon -r esm server.js
+
+  run:
+    - node -r esm server.js
+

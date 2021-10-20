@@ -1,0 +1,25 @@
+{
+  "name": "some/project-name",
+  "description": "Project description",
+  "keywords": ["Keyword1", "Keyword2"],
+  "license": "Proprietary",
+  "authors": [
+    { "name": "Some Authour", "email": "e@mail.test" }
+  ],
+  "repositories": [
+  ],
+  "require": {
+    "php": ">=7.1",
+    "continue/theme": "dev-master",
+    "phore/micro-app": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "config.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

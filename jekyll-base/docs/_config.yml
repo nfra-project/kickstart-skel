@@ -1,0 +1,16 @@
+title: talpa.io
+description: educational grade development tools
+google_analytics:
+show_downloads: true
+include:
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      title: developer camp
+
+plugins:
+- jekyll-optional-front-matter
