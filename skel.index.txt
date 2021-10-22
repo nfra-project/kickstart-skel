@@ -4,6 +4,9 @@ app-base
 gitlab-ci-build
     Install dockerfile and giblab-ci basic configuration
 
+github-actions
+    GitHub Actions and push to ghcr.io registry (includes static kickstart.static.sh)
+
 jekyll
     Basic HTML Templates for static website development
 
