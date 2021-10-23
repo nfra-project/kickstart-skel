@@ -1,5 +1,6 @@
 version: 1
 from: "nfra/kickstart-flavor-php:7.4"
+ports: "80:80/tcp;4000:4000/tcp;4100:4100/tcp"
 
 apache_document_root: "/opt/www"
 apache_vhost_config: |
