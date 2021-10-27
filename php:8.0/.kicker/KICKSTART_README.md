@@ -1,6 +1,6 @@
 # This project is build upon infracamp's kickstart
-> Version statement v1.1 (2020-12-18) - find a newer version or suggest changes in
-> (https://github.com/infracamp/kickstart-skel/_common/)
+> Version statement v1.2 (2021-10-18) - find a newer version or suggest changes in
+> (https://github.com/nfra-project/kickstart-skel/_common/)
 
 Kickstart is a open-source project developed by Matthias Leuffen (m@tth.es), to 
 provide a tool- and platform- agnostic tool for microservice development organisations
@@ -8,15 +8,15 @@ and an easy way to onboard new members into collaborative code ownership organis
 At the moment, kickstart depends on docker. But this might change over time.
 
 - [Visit infracamp.org Homepage](https://infracamp.org)
-- [Getting started guilde](https://infracamp.org/getting-started)
-- [Where does this information come from? Link to skel_project](https://github.com/infracamp/kickstart-skel)
+- [Getting started guilde](https://nfra.infracamp.org)
+- [Where does this information come from? Link to skel_project](https://github.com/nfra-project/kickstart-skel)
 
 ## Short documentation
 
 To run this project on your local pc for development, you need
 ***Linux, MacOS*** or ***Windows10 with WSL2*** with [cURL](https://en.wikipedia.org/wiki/CURL)
 and [docker](https://en.wikipedia.org/wiki/Docker_(software)).
-See the [Getting started guilde](https://infracamp.org/getting-started) for
+See the [Getting started guilde](https://nfra.infracamp.org) for
 detailed setup instructions.
 
 Open the command-line and run
